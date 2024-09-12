@@ -1,0 +1,60 @@
+# Break key hit
+# Break key hit
+# Break key hit
+# Compile of main1.v was successful.
+# Compile of main1_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of main1.v failed with 17 errors.
+# Compile of main1_tb.v was successful.
+# 2 compiles, 1 failed with 17 errors.
+# Compile of main1.v failed with 17 errors.
+# Compile of main1_tb.v was successful.
+# 2 compiles, 1 failed with 17 errors.
+# Compile of main1.v failed with 17 errors.
+# Compile of main1.v failed with 17 errors.
+# Compile of main1.v failed with 9 errors.
+# Compile of main1.v was successful.
+vsim -gui work.sequence_detector_1001_tb
+# vsim -gui work.sequence_detector_1001_tb 
+# Start time: 14:29:14 on Aug 01,2024
+# Loading work.sequence_detector_1001_tb
+# Loading work.sequence_detector_1001
+add wave -position insertpoint  \
+sim:/sequence_detector_1001_tb/clk \
+sim:/sequence_detector_1001_tb/reset \
+sim:/sequence_detector_1001_tb/w \
+sim:/sequence_detector_1001_tb/z
+run
+run
+add wave -position insertpoint  \
+sim:/sequence_detector_1001_tb/dut/state_reg \
+sim:/sequence_detector_1001_tb/dut/state_next
+run
+# Compile of main1.v was successful.
+# Compile of main1_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/sequence_detector_1001_tb/dut/state_reg \
+sim:/sequence_detector_1001_tb/dut/state_next
+run
+vsim -gui work.counter_10_tb
+# End time: 20:04:31 on Aug 01,2024, Elapsed time: 5:35:17
+# Errors: 0, Warnings: 13
+# vsim -gui work.counter_10_tb 
+# Start time: 20:04:31 on Aug 01,2024
+# Loading work.counter_10_tb
+# Loading work.counter_10
+add wave -position insertpoint  \
+sim:/counter_10_tb/clk \
+sim:/counter_10_tb/reset \
+sim:/counter_10_tb/d \
+sim:/counter_10_tb/q \
+sim:/counter_10_tb/c
+run
+# ** Note: $stop    : D:/FPGA/b2_tb.v(22)
+#    Time: 108 ns  Iteration: 0  Instance: /counter_10_tb
+# Break in Module counter_10_tb at D:/FPGA/b2_tb.v line 22
+run
+# End time: 21:01:14 on Aug 01,2024, Elapsed time: 0:56:43
+# Errors: 0, Warnings: 1

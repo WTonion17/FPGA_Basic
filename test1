@@ -1,0 +1,8 @@
+module myHalfAdder(S, C, a, b);
+output S,C;
+input a,b;
+
+ xor myXor(S,a,b);
+and myAnd(C,a,b);
+
+endmodule

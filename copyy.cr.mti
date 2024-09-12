@@ -1,0 +1,7 @@
+D:/FPGA/fsm_mult_seg_tb.v {1 {vlog -work work -stats=none D:/FPGA/fsm_mult_seg_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} D:/FPGA/fsm_mult_seg.v {1 {vlog -work work -stats=none D:/FPGA/fsm_mult_seg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}}

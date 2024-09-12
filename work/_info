@@ -1,0 +1,149 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vcounter_10
+!s110 1721317690
+!i10b 1
+!s100 fWBeI;U^5@]W9kTWB>_d03
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IU]K^M[D@i_A@YD@AL;3^d2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/FPGA
+w1721317071
+8D:/FPGA/b2.v
+FD:/FPGA/b2.v
+!i122 18
+L0 1 35
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1721317690.000000
+!s107 D:/FPGA/b2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/b2.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vcounter_10_tb
+!s110 1721317822
+!i10b 1
+!s100 CFnC7>7;]<m[o0^WoJRU?3
+R0
+I@fSzA^GO2MFg^g<^@L1l43
+R1
+R2
+w1721317808
+8D:/FPGA/b2_tb.v
+FD:/FPGA/b2_tb.v
+!i122 21
+L0 2 23
+R3
+r1
+!s85 0
+31
+!s108 1721317822.000000
+!s107 D:/FPGA/b2_tb.v|
+!s90 -reportprogress|300|-work|work|D:/FPGA/b2_tb.v|
+!i113 1
+R4
+R5
+vsequence_detector
+!s110 1721231758
+!i10b 1
+!s100 SoSIdX9TdI[6nbn;iMLN;1
+R0
+I`D0fI?8Fif5ZNmXR=J:O00
+R1
+R2
+w1721231738
+8D:/FPGA/sd1.v
+FD:/FPGA/sd1.v
+!i122 9
+L0 1 51
+R3
+r1
+!s85 0
+31
+!s108 1721231758.000000
+!s107 D:/FPGA/sd1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/sd1.v|
+!i113 1
+R4
+R5
+vsequence_detector_1001
+Z6 !s110 1722497720
+!i10b 1
+!s100 aXlH>1fg]GmDZXg4AG;7F3
+R0
+I2RbdM7>iO0W;89>5bgFLm1
+R1
+R2
+w1722497713
+8D:/FPGA/main1.v
+FD:/FPGA/main1.v
+!i122 31
+L0 1 55
+R3
+r1
+!s85 0
+31
+Z7 !s108 1722497720.000000
+!s107 D:/FPGA/main1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/main1.v|
+!i113 1
+R4
+R5
+vsequence_detector_1001_tb
+R6
+!i10b 1
+!s100 XDz2n845hokV<ghKhCo>T2
+R0
+I]WfP908a>iY4hIlcWNZE@1
+R1
+R2
+w1722497180
+8D:/FPGA/main1_tb.v
+FD:/FPGA/main1_tb.v
+!i122 32
+L0 2 40
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/FPGA/main1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/main1_tb.v|
+!i113 1
+R4
+R5
+vsequence_detector_tb
+!s110 1721319699
+!i10b 1
+!s100 V6FM@2z?B:Kz9OkGI@f5:0
+R0
+IjEH0]a`3hQ;NMfzR7?Q392
+R1
+R2
+w1721319664
+8D:/FPGA/sd1test.v
+FD:/FPGA/sd1test.v
+!i122 27
+L0 2 41
+R3
+r1
+!s85 0
+31
+!s108 1721319699.000000
+!s107 D:/FPGA/sd1test.v|
+!s90 -reportprogress|300|-work|work|D:/FPGA/sd1test.v|
+!i113 1
+R4
+R5

@@ -1,0 +1,6 @@
+D:/FPGA/demo.vhd {0 {vcom -work work -2002 -explicit -stats=none D:/FPGA/demo.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+** Error (suppressible): D:/FPGA/demo.vhd(2): (vcom-1491) Empty source files.
+
+} {} {}}
